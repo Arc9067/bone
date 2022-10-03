@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background: url(../img/Bg/home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+    
+
+.dark-mode {
+    background-color: #fff;
+    color: black;
+}
+
+//scrool
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FFD02D;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+        background: #fff;}
+
+
+@font-face {
+    font-family: Gang;
+    src: url(../Font/go3v2.ttf);
+}
+
+@font-face {
+    font-family: Product;
+    src: url(../Font/ProductSans-Black.ttf);
+}
+
+@font-face {
+    font-family: Akira;
+    src: url(../Font/Akira\ Expanded\ Demo.otf);
+    font-weight: 800;
+    font-style: normal;
+}
+
+$Akira: Akira,
+sans-serif;
+$Gang:Gang,
+sans-serif;
+$Product: Product,
+sans-serif;
+
+li, a, button{
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: #1E1E1E;
+}
+
+a:hover{
+    background-color: transparent !important;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    background-color: #991b1b;
+    overflow: hidden;
+    // padding: 10px 0px;
+
+    .pheader{
+        // background-color: green;
+        height: 100%;
+        width: 100%;
+
+        .headimg{
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+        .switch{
+            font-size: 30px;
+            color: #FFD02D;
+            margin-left: 40px;
+            cursor: pointer;
+        }}
+        #navul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                // background-color: black;
+                width: 100%;
+
+                a{
+                    column-gap: 20px;
+                    text-align: center;
+                    font-size: 16px;
+                    
+                    li{
+                        color: #fff;
+                        font-family: $Product;
+                    }
+                }
+               a{ button{
+                    background-color: #FFD02D;
+                    margin-top: 5px;
+                    font-family: $Product;
+                }}
+                a:hover{
+                    color: #1E1E1E;
+                }
+                a:hover{
+                    background-color: transparent;
+                
+                }
+            }
+        }
+
+    }
+
+}
+
+.loader {
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    overflow: hidden;
+    position: fixed;
+    z-index: 100000000000000;
+
+    .loader-con {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border-top-color: transparent;
+        border-top: 0px;
+        // animation: loader 1s linear infinite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        diV{
+            color: #991b1b;
+            box-shadow: 1px -1px 39px 0px rgba(153, 28, 28, 0.75);
+                -webkit-box-shadow: 1px -1px 39px 0px rgba(153, 28, 28, 0.75);
+                -moz-box-shadow: 1px -1px 39px 0px rgba(153, 28, 28, 0.75);
+        }
+    }
+
+}
+
+.home{
+    height: auto;
+    width: 100%;
+    // background-color: red;
+background: #fafafa;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    // padding-bottom: 20vh;
+    padding-bottom: 50px;
+
+    .container{
+        .row{
+            display: flex;
+            justify-content: center;
+            .hometxt{
+                margin-top: 70px;
+                h2{
+                // background-color: greenyellow;
+                color: #991b1b;
+                font-size: 4em;
+                font-family: $Product;
+
+                span{
+                    color: #1E1E1E;
+                    font-family: $Gang;
+                    display: block;
+                }
+            }
+            p {
+                color: #991b1b;
+                font-family: $Product;
+                width: 70%;
+            }
+            .homebtn{
+                display: flex;
+                align-items: center;
+                margin-top: 30px;
+                a{
+                    font-family: $Product;
+                    text-transform: uppercase;
+                    background-color: #991b1b;
+                    color: #fff;
+                    padding: 10px 20px;
+                    box-shadow: 1px -1px 39px 0px rgba(153, 28, 28, 0.75);
+                        -webkit-box-shadow: 1px -1px 39px 0px rgba(153, 28, 28, 0.75);
+                        -moz-box-shadow: 1px -1px 39px 0px rgba(153, 28, 28, 0.75);
+                }
+                i{
+                    font-size: 2em;
+                    color: #991b1b;
+                    margin-left: 20px;
+                }
+                a:hover{
+                    color: #991b1b;
+                    border: 2px solid #991b1b;
+                }
+            }
+        }
+        }
+    }
+}
+
+
+
+
+
+
+.tokenomics{
+    height: auto;
+    width: 100%;
+    // background-color: red;
+    background: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 30px;
+    position: relative;
+    .container{
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+
+        // background-color: purple;
+        .row{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // background-color: purple;
+            .tkn{
+                // background-color: blue;
+
+                .tokentxt{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    // background-color: green;
+                    h2{
+                        font-size: 2.5em;
+                        color: #fff;
+                        font-family: $Akira;
+                        font-weight: bolder;
+                        margin-top: 30px;
+                        text-align: center;
+                    }
+                    p{
+                        font-family: $Product;
+                        color: lightgray;
+                        font-family: 2em;
+                        width: 80%;
+                        text-align: center;
+                    }
+                    .p1{
+                        text-align: center;
+                        padding: 10px;
+                        background-color: #FFD02D;
+                        width: 40%;
+                        font-family: $Product;
+                        text-transform: uppercase;
+                        font-weight: bolder;
+                        border-radius: 20px;
+                    }
+                    .p2{
+                        width: 60%;
+                        color: #fff;
+                        text-align: center;
+                        font-family: $Product;
+                    }
+                    .tkcenter{
+                        // background-color: green;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 200px;
+
+                        .moon{
+                            position: absolute;
+                            bottom: 0;
+                            left: 0px;
+                            opacity: .5;
+                        }
+                    }
+                }
+                .tkcard{
+                    // background-color: yellow;
+                    width: 100%;
+
+                    .row{
+                        // background-color: blue;
+
+                        div{
+                            background-color: #991c1c;
+                            margin-left: 50px;
+                            border-radius: 15px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            text-align: center;
+                            margin-top: 50px;
+                            box-shadow: 1px -1px 39px 0px rgba(153, 28, 28, 0.75);
+                                -webkit-box-shadow: 1px -1px 39px 0px rgba(153, 28, 28, 0.75);
+                                -moz-box-shadow: 1px -1px 39px 0px rgba(153, 28, 28, 0.75);
+                            h2{
+                                color: #fafafa;
+                                font-family: $Product;
+                                text-transform: uppercase;
+                                padding: 10px;
+                                span{
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.buy{
+    height: auto;
+    width: 100%;
+    background: #991b1b;
+    background-repeat: no-repeat;
+    background-size: cover;    padding-bottom: 50px;
+    overflow: hidden;
+
+    .container-fluid{
+        .row{
+            display: flex;
+            justify-content: center;
+            .inbuy{
+                // background-color: red;
+                margin-top: 50px;
+
+                .buytxt{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    h2{
+                        font-family: $Akira;
+                        font-size: 2em;
+                        text-align: center;
+                        color: #fff;
+                        span{
+                            display: block;
+                            color: #fff;
+                        }
+                    }
+                    button{
+                        padding:10px 30px;
+                        font-family: $Akira;
+                        font-weight: bolder;
+                        border-radius: 10px;
+                        margin-top: 20px;
+                    }
+                }
+                .mainb{
+                    // background-color: green;
+                    margin-top: 50px;
+                    div{
+                        background-color: #18181b;
+                        margin-top: 20px;
+                        margin-left: 20px;
+                        border-radius: 10px;
+                        padding: 20px;
+                        display: flex;
+                        color: #fff;
+
+                        span{
+                            font-size: 20px;
+                            font-family: $Product;
+                            background-color: black;
+                            color: #fff;
+                            padding: 20px;
+                            border-radius: 100%;
+                            text-align: center;
+                        }
+                        h3{
+                            font-size: 18px;
+                            padding-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+footer{
+    height: auto;
+    width: 100%;
+    background-color: #18181b;
+    overflow: hidden;
+    padding: 30px;
+
+
+    .container{
+        .row{
+            padding-top: 20px;
+            .fotimg{
+                p{
+                    width: 90%;
+                    color: lightgray;
+
+                    span{
+                        display: block;
+                    }
+                }
+            }
+            .footdes{
+                // background-color: yellowgreen;
+                
+                .row{
+                    .footul{
+                        // background-color: blue;
+                        margin-left: 20px;
+                        padding: 0;
+
+                        ul{
+                            color: lightgray;
+                            h2{
+                                font-size: 2em;
+                                color: #fff;
+                            }
+                            li{
+                                color: lightgrey;
+
+                                i{
+                                    padding-right: 20px;
+                                    color: lightgray;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

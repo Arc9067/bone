@@ -1,0 +1,359 @@
+@media screen and (max-width:600px) {
+header {
+        .pheader {
+            #navul {
+                ul {
+                    display: none;
+    }            }
+        }
+    }
+    .home{
+        // background:red;
+        .container{
+        .row{
+            .hometxt{
+                h2{
+                    font-size: 3em;
+                }
+                p{
+                    width: 90%;
+                }
+            }
+            div{
+                img{
+                    height: 300px;
+                }
+            }
+        }
+    }}
+
+        .conpartners {
+    
+            .partners {    
+                width: 90%;
+                .container {
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: center;
+                    // align-items: center;
+                    padding-left: 0px;
+
+                    img{
+                        width: 50%;
+                        margin-left: 40px;
+                    }
+                    img:nth-child(3){
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .about{
+            background: black;
+
+            .container{
+                .row{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    // background-color: yellow;
+                    .about2{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    img{
+                        height: 400px;
+                    }
+                    }
+                    .about1{
+                    .aboutxt{
+                        h2{
+                            font-size: 2em;
+                            span{
+                                font-size: .7em;
+                            }
+                        }
+                        p{
+                            width: 90%;
+                        }
+                    }
+                }}
+            }
+        }
+
+        .tokenomics{
+            // background: red;
+
+            .container{
+                .row{
+                    .tkn{
+                        // background-color: yellowgreen;
+
+                        .tokentxt{
+                            // background-color: red;
+                            h2{
+                                font-size: 2em;
+
+                                span{
+                                    font-size: .8em;
+                                }
+                            }
+                            .p1{
+                                width: 80%;
+                                margin-top: 30px;
+                            }
+                            .p2{
+                                width: 80%;
+                            }
+                        .tkcenter {
+                            // background-color: red;
+                            margin-left: 0px;
+                            // align-items: flex-start;
+                            justify-content: center;
+                            
+                            .moon{
+                                opacity: .3;
+                                right: 20px;
+                                top: 0;
+                                height: 200px;
+                            }
+
+                            .tkimg{
+                                height: 200px;
+                            }
+}
+                        }
+                    }
+                }
+            }
+        }
+        .buy{
+            // background: red;
+
+            .container-fluid{
+                .row{
+                    .inbuy{
+                        .buytxt{
+                            
+                            h2{
+                                font-size: 2em;
+
+                                span{
+                                    font-size: .7em;
+                                }
+                            }
+                        }
+                    }
+                    .mainb{
+                        // background-color: green;
+                        display: flex;
+                        justify-content: center;
+
+                        div{
+                            margin-left: 0px !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .roadmap{
+            // background: red;
+
+            .container{
+                .row{
+                    .inroad{
+                        .roadtxt{
+                            // background-color: green;
+
+                            h2{
+                                font-size: 2em;
+                            }
+                        }
+                        .row{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            .mainroad{
+                                position: static;
+                                // background-color: blue;
+                                margin-left: 0;
+
+                                ul{
+                                    li{
+                                        width: 90%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .dev{
+            // background: red;
+            width: 100%;
+
+            .container{
+                .row{
+                    .devtxt{
+                        width: 90%;
+
+                        h2{
+                            font-size: 1.7em;
+                        }
+                    }
+                    .devdes{
+                        .devimg{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
+
+        .charity{
+            // background-color: red;
+
+
+            .container{
+                .row{
+                    // background-color: blue;
+
+                    .charityhead{
+                        p{
+                            width: 95%;
+                        }
+                    }
+                    .charitydes{
+                        .row{
+                            .desp{
+                                width: 90%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        footer{
+            // background-color: red;
+
+            .container{
+                .row{
+                    display: flex;
+                    // background-color: black;
+                    justify-content: center;
+                    align-items: center;
+
+                    .fotimg{
+                        // background-color: blue;
+                        order: 5;
+                        display: flex;
+                        justify-content: center;
+
+                        img{
+                            display: block;
+                        }
+                        p{
+                            display: block;
+                        }
+                    }
+                    .footdes{
+                        order: 1;
+                        // background-color: aqua;
+                        padding-bottom: 50px;
+
+                        .row{
+                            .footul{
+                                order: 10;
+                                // background-color: yellowgreen;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+                .tokenomics .container .row .tkn .tkcard .row div{
+                    margin-left: 0;
+                    margin-top: 30px;
+                }
+}
+
+
+//medium devices resposiveness
+@media (min-width:600px) and (max-width:991px) {
+    .tokenomics .container .row .tkn .tkcard .row div {
+            margin-left: 0;
+            margin-top: 30px;
+        }
+    .about{
+        // background:red;
+
+        .container{
+            .row{
+                .about2{
+                    img{
+                        margin-right: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .tokenomics{
+        // background: red;
+
+        .container{
+            .row{
+                .tkn{
+                    .tokentxt{
+                        .p1{
+                            width: 60%;
+                        }
+                        .tkcenter{
+                            margin-left: 0;
+
+                            .moon{
+                                bottom: 0;
+                                left: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .roadmap {
+        // background: red;
+
+        .container {
+            .row {
+                .inroad {
+
+                    .row {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .mainroad {
+                            position: static;
+                            // background-color: blue;
+                            margin-left: 0;
+
+                            ul {
+                                li {
+                                    width: 90%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

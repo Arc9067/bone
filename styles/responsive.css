@@ -1,0 +1,187 @@
+@media screen and (max-width: 600px) {
+  header .pheader #navul ul {
+    display: none;
+  }
+  .home .container .row .hometxt h2 {
+    font-size: 3em;
+  }
+  .home .container .row .hometxt p {
+    width: 90%;
+  }
+  .home .container .row div img {
+    height: 300px;
+  }
+  .conpartners .partners {
+    width: 90%;
+  }
+  .conpartners .partners .container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+  }
+  .conpartners .partners .container img {
+    width: 50%;
+    margin-left: 40px;
+  }
+  .conpartners .partners .container img:nth-child(3) {
+    display: none;
+  }
+  .about {
+    background: black;
+  }
+  .about .container .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about .container .row .about2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about .container .row .about2 img {
+    height: 400px;
+  }
+  .about .container .row .about1 .aboutxt h2 {
+    font-size: 2em;
+  }
+  .about .container .row .about1 .aboutxt h2 span {
+    font-size: 0.7em;
+  }
+  .about .container .row .about1 .aboutxt p {
+    width: 90%;
+  }
+  .tokenomics .container .row .tkn .tokentxt h2 {
+    font-size: 2em;
+  }
+  .tokenomics .container .row .tkn .tokentxt h2 span {
+    font-size: 0.8em;
+  }
+  .tokenomics .container .row .tkn .tokentxt .p1 {
+    width: 80%;
+    margin-top: 30px;
+  }
+  .tokenomics .container .row .tkn .tokentxt .p2 {
+    width: 80%;
+  }
+  .tokenomics .container .row .tkn .tokentxt .tkcenter {
+    margin-left: 0px;
+    justify-content: center;
+  }
+  .tokenomics .container .row .tkn .tokentxt .tkcenter .moon {
+    opacity: 0.3;
+    right: 20px;
+    top: 0;
+    height: 200px;
+  }
+  .tokenomics .container .row .tkn .tokentxt .tkcenter .tkimg {
+    height: 200px;
+  }
+  .buy .container-fluid .row .inbuy .buytxt h2 {
+    font-size: 2em;
+  }
+  .buy .container-fluid .row .inbuy .buytxt h2 span {
+    font-size: 0.7em;
+  }
+  .buy .container-fluid .row .mainb {
+    display: flex;
+    justify-content: center;
+  }
+  .buy .container-fluid .row .mainb div {
+    margin-left: 0px !important;
+  }
+  .roadmap .container .row .inroad .roadtxt h2 {
+    font-size: 2em;
+  }
+  .roadmap .container .row .inroad .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .roadmap .container .row .inroad .row .mainroad {
+    position: static;
+    margin-left: 0;
+  }
+  .roadmap .container .row .inroad .row .mainroad ul li {
+    width: 90%;
+  }
+  .dev {
+    width: 100%;
+  }
+  .dev .container .row .devtxt {
+    width: 90%;
+  }
+  .dev .container .row .devtxt h2 {
+    font-size: 1.7em;
+  }
+  .dev .container .row .devdes .devimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .charity .container .row .charityhead p {
+    width: 95%;
+  }
+  .charity .container .row .charitydes .row .desp {
+    width: 90%;
+  }
+  footer .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .container .row .fotimg {
+    order: 5;
+    display: flex;
+    justify-content: center;
+  }
+  footer .container .row .fotimg img {
+    display: block;
+  }
+  footer .container .row .fotimg p {
+    display: block;
+  }
+  footer .container .row .footdes {
+    order: 1;
+    padding-bottom: 50px;
+  }
+  footer .container .row .footdes .row .footul {
+    order: 10;
+  }
+  .tokenomics .container .row .tkn .tkcard .row div {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+}
+@media (min-width: 600px) and (max-width: 991px) {
+  .tokenomics .container .row .tkn .tkcard .row div {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .about .container .row .about2 img {
+    margin-right: 40px;
+  }
+  .tokenomics .container .row .tkn .tokentxt .p1 {
+    width: 60%;
+  }
+  .tokenomics .container .row .tkn .tokentxt .tkcenter {
+    margin-left: 0;
+  }
+  .tokenomics .container .row .tkn .tokentxt .tkcenter .moon {
+    bottom: 0;
+    left: 0px;
+  }
+  .roadmap .container .row .inroad .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .roadmap .container .row .inroad .row .mainroad {
+    position: static;
+    margin-left: 0;
+  }
+  .roadmap .container .row .inroad .row .mainroad ul li {
+    width: 90%;
+  }
+}/*# sourceMappingURL=responsive.css.map */
