@@ -18,7 +18,7 @@ This is a readme file for Baby Bone Official Coin
 
 * `JQUERY` for adding addiional functions to the webisite
 
-* `JAVASCRIPT` for adding addiional functions to the webisite & Animating using *Aos Library*
+* `JAVASCRIPT` for adding addiional functions to the webisite & Animating using **Aos Library**
 
 ## Website Preview
 
