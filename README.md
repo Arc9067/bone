@@ -30,8 +30,6 @@ This is a readme file for Baby Bone Official Coin
 
 ![alt text](https://github.com/Arc9067/bone/blob/main/Screenshots/3.png?raw=true)
 
-![alt text](https://github.com/Arc9067/bone/blob/main/Screenshots/4.png?raw=true)
-
 ![alt text](https://github.com/Arc9067/bone/blob/main/Screenshots/5.png?raw=true)
 
 
